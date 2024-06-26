@@ -5,23 +5,23 @@
         "type": "Header",
         "headerVariant": "variant-c",
         "isSticky": false,
-        "title": "Personal",
+        "title": "Giovanni Carotenuto",
         "isTitleVisible": true,
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "Info",
-                "url": "/info"
+                "label": "Home",
+                "url": "/"
             },
             {
                 "type": "Link",
-                "label": "Projects",
+                "label": "Progetti",
                 "url": "/projects"
             },
             {
                 "type": "Link",
-                "label": "Blog",
-                "url": "/blog"
+                "label": "Info",
+                "url": "/info"
             }
         ],
         "socialLinks": [
@@ -57,38 +57,47 @@
             },
             {
                 "type": "Link",
-                "label": "Contact",
-                "url": "mailto:thisismyemail.@myemail.me",
-                "altText": ""
-            },
-            {
-                "type": "Link",
-                "label": "Blog",
-                "url": "/blog",
+                "label": "e-Mail",
+                "url": "mailto:carotenuto.giovanni1996@gmail.com",
                 "altText": ""
             },
             {
                 "type": "Link",
                 "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
+                "url": "https://github.com/GioStock",
                 "altText": "Netlify templates"
+            },
+            {
+                "type": "Link",
+                "label": "Linkedin",
+                "altText": "",
+                "url": "https://www.linkedin.com/in/giovanni-carotenuto1996/",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
             }
         ],
         "contacts": {
             "type": "ContactBlock",
-            "title": "Contact details",
-            "phoneNumber": "850-123-5021",
-            "phoneAltText": "My phone number",
-            "email": "thisismyemail.@myemail.me",
-            "emailAltText": "My email",
-            "address": "312 Lovely Street, Brooklyn, NY, 123456",
-            "addressAltText": "My address"
+            "title": "Contatti",
+            "phoneNumber": "333 9459401",
+            "phoneAltText": "telefono",
+            "email": "carotenuto.giovanni1996@gmail.com",
+            "emailAltText": "email",
+            "address": "Castel Frentano 66032, CH, IT",
+            "addressAltText": "Indirizzo"
         },
-        "copyrightText": "Powered by [Netlify](https://www.netlify.com/platform/)",
+        "copyrightText": "Portfolio di \n\nGiovanni Carotenuto\n",
         "styles": {
             "self": {
                 "width": "narrow",
-                "padding": ["pt-16", "pb-16", "pr-4", "pl-4"]
+                "padding": [
+                    "pt-16",
+                    "pb-16",
+                    "pr-4",
+                    "pl-4"
+                ]
             }
         }
     }

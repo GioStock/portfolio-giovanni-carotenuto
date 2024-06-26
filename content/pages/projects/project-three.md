@@ -1,19 +1,23 @@
 ---
 type: ProjectLayout
-title: One more cool project
+title: gestionale foodtruck
 colors: colors-a
-date: '2022-01-22'
-client: Awesome client
+date: '2024-05-22'
+client: Progetto foodtruck
 description: >-
-  It’s hard to imagine that I’ve that I wrote all this code by myself, probably because I worked with an entire team :) but they definitely followed my lead most of the time.
-featuredImage:
-  type: ImageBlock
-  url: /images/bg3.jpg
-  altText: Project thumbnail image
+  Gestionale del Progetto Foodtruck. Possibilità di Gestione dei trucks,
+  aziende, clienti e prodotti. Non è mai stato cosi
+  semplice.                       
 media:
   type: ImageBlock
   url: /images/bg3.jpg
   altText: Project image
+featuredImage:
+  type: ImageBlock
+  url: /images/Screenshot 2024-06-26 alle 22.07.29.png
+  altText: parte del gestionale
+  caption: Caption of the image
+  elementId: ''
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, tincidunt ac leo efficitur, feugiat tempor odio. Curabitur at auctor sapien. Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem pellentesque fermentum. Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh. Curabitur eget dui in libero euismod commodo nec sit amet est. Etiam id ipsum aliquam, vehicula erat sit amet, consequat tortor.

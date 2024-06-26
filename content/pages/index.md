@@ -4,22 +4,19 @@ title: Home
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg1.jpg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
   opacity: 75
+  url: /images/featured-Image1.jpg
 sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    title: >-
-      I’m a developer, digital artist, consultant and a bunch of other
-      impressive titles and buzz words.
+    title: 'Ciao, sono Giovanni un Jr. Full Stack Web Developer'
     subtitle: >-
-      This is my info—I’m sharing it all this with ya’ll to impress you with all
-      the hard work I’ve done in the past few years. Once you’re impressed, you
-      can continue to scroll down to see more details and credentials about me.
+      HTML & CSS | Javascript | Java | SpringBoot | JPA | Hibernate | MyQSL |
+      Node.js | JSON | Bootstrap | VSC | Eclipse | REST | MVC | GIT |
     styles:
       self:
         height: auto
@@ -38,15 +35,37 @@ sections:
         justifyContent: center
         flexDirection: row-reverse
       title:
-        textAlign: left
+        textAlign: center
       subtitle:
-        textAlign: left
+        textAlign: center
       text:
         textAlign: left
       actions:
         justifyContent: flex-start
     type: HeroSection
-    actions: []
+    actions:
+      - type: Link
+        label: GIT HUB
+        altText: ''
+        url: 'https://github.com/GioStock'
+        showIcon: true
+        icon: github
+        iconPosition: left
+        elementId: ''
+      - type: Link
+        label: LinkedIn
+        altText: ''
+        url: 'https://www.linkedin.com/in/giovanni-carotenuto1996/'
+        showIcon: true
+        icon: linkedin
+        iconPosition: left
+        elementId: ''
+    media:
+      type: ImageBlock
+      url: /images/IMG_7370-removebg-preview.png
+      altText: Foto Personale
+      caption: Foto
+      elementId: ''
   - colors: colors-f
     type: FeaturedProjectsSection
     elementId: ''
@@ -84,7 +103,7 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-end
-    subtitle: 'Projects'
+    subtitle: 'Project '
   - type: FeaturedPostsSection
     elementId: ''
     colors: colors-f
@@ -93,8 +112,8 @@ sections:
     showFeaturedImage: false
     actions:
       - type: Link
-        label: See all posts
-        url: /blog
+        label: Vedi tutti i porgetti
+        url: /project
     posts:
       - content/pages/blog/post-six.md
       - content/pages/blog/post-four.md
@@ -130,22 +149,24 @@ sections:
   - type: ContactSection
     colors: colors-f
     backgroundSize: full
-    title: "Got an interesting project? Tell me more...\U0001F4AC"
+    title: >-
+      Hai qualche Domanda? compila il modulo Qui oppure puoi scrivermi su
+      LinkedIn
     form:
       type: FormBlock
       elementId: sign-up-form
       fields:
-        - name: firstName
-          label: First Name
+        - name: nome
+          label: Nome
           hideLabel: true
-          placeholder: First Name
+          placeholder: nome
           isRequired: true
           width: 1/2
           type: TextFormControl
-        - name: lastName
-          label: Last Name
+        - name: cognome
+          label: cognome
           hideLabel: true
-          placeholder: Last Name
+          placeholder: cognome
           isRequired: false
           width: 1/2
           type: TextFormControl
@@ -156,19 +177,19 @@ sections:
           isRequired: true
           width: 1/2
           type: EmailFormControl
-        - name: address
-          label: Address
+        - name: indirizzo
+          label: indirizzo
           hideLabel: true
-          placeholder: Address
+          placeholder: indirizzo
           isRequired: true
           width: 1/2
           type: TextFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve updates
+        - name: Aggiornamenti
+          label: Resta Aggiornato
           isRequired: false
           width: full
           type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
+      submitLabel: "Invia \U0001F680"
       styles:
         submitLabel:
           textAlign: center
@@ -193,4 +214,7 @@ sections:
         textAlign: left
       text:
         textAlign: left
+metaTitle: Portfolio Personale
+metaDescription: my portfolio Web Developer
+addTitleSuffix: false
 ---
