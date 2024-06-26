@@ -13,14 +13,10 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    text: >-
-      ## Hey I’m a developer. I’ve been born and raised in the world, and that’s
-      also where I’m based. I’m currently a free agent, ex-this, ex-that,
-      ex-super big name. When I’m not coding, writing or creating, I eat
-      cereals. I have a dog, check her out [@mygod](https://www.stackbit.com/).
+    text: "# **Ciao Sono Giovanni,**\n\n#### Appassionato del Mondo IT, la mia Formazione è iniziata tardi in questo settore, ma ho sempre avuto una passione irrefrenabile nell'approfondire. Attualmente mi sto formando anche su C#, Visual Studio e .NET, perchè la mia passione sarebbe quella di essere un Game Designer Developer \U0001F916.\n\n"
     media:
       type: ImageBlock
-      url: /images/about.jpg
+      url: /images/IMG_7370-removebg-preview.png
       altText: Hero image
     styles:
       self:
@@ -59,31 +55,41 @@ sections:
         borderWidth: 1
         borderStyle: solid
   - type: MediaGallerySection
-    colors: colors-f
-    subtitle: 'I worked with these folks:'
+    colors: colors-c
+    subtitle: 'Hard Skills:'
     images:
       - type: ImageBlock
-        url: /images/logo1.svg
-        altText: Logo one
-        caption: Logo one
+        altText: HTML
+        caption: HTML
+        url: /images/html-124-svgrepo-com.svg
       - type: ImageBlock
-        url: /images/logo2.svg
-        altText: Logo two
-        caption: Logo two
+        url: /images/css3-02-svgrepo-com.svg
+        altText: CSS
+        caption: CSS
       - type: ImageBlock
-        url: /images/logo3.svg
-        altText: Logo three
-        caption: Logo three
+        url: /images/bootstrap-fill-svgrepo-com.svg
+        altText: BOOTSTRAP
+        caption: BOOTSTRAP
       - type: ImageBlock
-        url: /images/logo4.svg
-        altText: Logo four
-        caption: Logo four
+        url: /images/js01-svgrepo-com.svg
+        altText: JS
+        caption: JS
       - type: ImageBlock
-        url: /images/logo5.svg
-        altText: Logo five
-        caption: Logo five
-    spacing: 3
-    columns: 5
+        url: /images/java-svgrepo-com.svg
+        altText: JAVA
+        caption: JAVA
+      - type: ImageBlock
+        url: /images/mysql-svgrepo-com.svg
+        altText: MYSQL
+        caption: MYSQL
+        elementId: ''
+      - type: ImageBlock
+        url: /images/spring-boot-svgrepo-com.svg
+        altText: SPRING
+        caption: SPRING
+        elementId: ''
+    spacing: 41
+    columns: 7
     aspectRatio: auto
     showCaption: false
     enableHover: false
@@ -105,6 +111,7 @@ sections:
         textAlign: left
       subtitle:
         textAlign: left
+    title: Le mie competenze attuali
   - type: DividerSection
     styles:
       self:
@@ -124,31 +131,16 @@ sections:
         actions:
           - type: Link
             label: GitHub
-            url: 'https://github.com/'
+            url: 'https://github.com/GioStock'
         styles:
           self:
             textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Twitter
-            url: 'https://twitter.com/'
-        styles:
-          self:
-            textAlign: left
+        title: ''
       - type: FeaturedItem
         actions:
           - type: Link
             label: LinkedIn
-            url: 'https://www.linkedin.com/'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: CodePen
-            url: 'https://codepen.io/'
+            url: 'https://www.linkedin.com/in/giovanni-carotenuto1996/'
         styles:
           self:
             textAlign: left
@@ -156,15 +148,7 @@ sections:
         actions:
           - type: Link
             label: Discord
-            url: 'https://discord.com/'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Instagram
-            url: 'https://www.instagram.com/'
+            url: 'https://discord.com/giostock'
         styles:
           self:
             textAlign: left
@@ -189,39 +173,7 @@ sections:
         textAlign: left
       subtitle:
         textAlign: left
-    subtitle: 'You can find me here:'
-  - type: DividerSection
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-12
-          - pb-12
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderWidth: 1
-        borderStyle: solid
-  - type: LabelsSection
-    colors: colors-f
-    subtitle: 'Skills:'
-    items:
-      - type: Label
-        label: 'WEB 1, 2, 3'
-      - type: Label
-        label: React
-      - type: Label
-        label: Microsoft Office
-      - type: Label
-        label: Next.js
-      - type: Label
-        label: Netlify
-      - type: Label
-        label: Pancakes
-      - type: Label
-        label: C++
-      - type: Label
-        label: Swift
+    subtitle: "Puoi contattarmi qui \U0001F449\U0001F3FB"
   - type: DividerSection
     styles:
       self:
@@ -236,103 +188,10 @@ sections:
         borderStyle: solid
   - type: TextSection
     variant: variant-a
-    subtitle: 'Contact:'
+    subtitle: E-Mail
     colors: colors-f
     text: |
-      [thisismyemail.@myemail.me](mailto:thisismyemail.@myemail.me)
-  - type: DividerSection
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-8
-          - pb-8
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderWidth: 1
-        borderStyle: solid
-  - type: FeaturedItemsSection
-    colors: colors-f
-    items:
-      - type: FeaturedItem
-        subtitle: 'Experience:'
-        text: |-
-          **Current**
-
-          * freelance @freelance.me
-
-          **2018-2021**
-
-          * fullstack at this startup
-
-          **2015**
-
-          * senior front-end at this place
-
-          **2013**
-
-          * intern developer at a big company
-
-          **2011**
-
-          * flipping burgers
-        styles:
-          self:
-            textAlign: left
-            padding:
-              - pt-0
-              - pl-0
-              - pb-0
-              - pr-0
-      - type: FeaturedItem
-        subtitle: 'Education:'
-        text: |-
-          **2015-2018**
-
-          * ba computer sciense at a semi fancy school
-
-          **2014**
-
-          * react certificate somewhere
-
-          **2011**
-
-          * my highschool
-        styles:
-          self:
-            textAlign: left
-            padding:
-              - pt-0
-              - pl-0
-              - pb-0
-              - pr-0
-    columns: 2
-    spacingX: 60
-    spacingY: 60
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-8
-          - pb-8
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
+      [carotenuto.giovanni1996@gmail.com](mailto:thisismyemail.@myemail.me)
   - type: DividerSection
     styles:
       self:
@@ -347,7 +206,7 @@ sections:
         borderStyle: solid
   - type: ContactSection
     backgroundSize: full
-    title: "Let’s talk... \U0001F4AC"
+    title: "Per qualsiasi dubbio, Contattami! \U0001F4AC"
     colors: colors-f
     form:
       type: FormBlock
@@ -356,14 +215,14 @@ sections:
         - name: firstName
           label: First Name
           hideLabel: true
-          placeholder: First Name
+          placeholder: nome
           isRequired: true
           width: 1/2
           type: TextFormControl
         - name: lastName
           label: Last Name
           hideLabel: true
-          placeholder: Last Name
+          placeholder: cognome
           isRequired: false
           width: 1/2
           type: TextFormControl
@@ -375,18 +234,18 @@ sections:
           width: full
           type: EmailFormControl
         - name: message
-          label: Message
+          label: messaggio
           hideLabel: true
           placeholder: Tell me about your project
           isRequired: true
           width: full
           type: TextareaFormControl
         - name: updatesConsent
-          label: Sign me up to recieve my words
+          label: Resta Aggiornato
           isRequired: false
           width: full
           type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
+      submitLabel: "Invia \U0001F680"
       styles:
         submitLabel:
           textAlign: center
