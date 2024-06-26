@@ -233,10 +233,10 @@ sections:
           isRequired: true
           width: full
           type: EmailFormControl
-        - name: message
+        - name: messaggio
           label: messaggio
           hideLabel: true
-          placeholder: Tell me about your project
+          placeholder: Raccontami un po'...
           isRequired: true
           width: full
           type: TextareaFormControl
