@@ -13,8 +13,8 @@ featuredImage:
   altText: ecommerce image
 media:
   type: ImageBlock
-  url: /images/bg1.jpg
-  altText: Project image
+  url: /images/Screenshot 2024-06-26 alle 22.27.40.png
+  altText: Project ecomm
 ---
 ### Linguaggi Frontend
 
