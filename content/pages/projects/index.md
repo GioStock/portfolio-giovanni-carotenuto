@@ -1,6 +1,6 @@
 ---
 type: ProjectFeedLayout
-title: Projects
+title: Ultimi Progetti
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
@@ -31,7 +31,7 @@ styles:
 bottomSections:
   - type: ContactSection
     backgroundSize: full
-    title: "Let’s talk... \U0001F4AC"
+    title: "Raccontami il tuo problema.. \U0001F4AC"
     colors: colors-f
     form:
       type: FormBlock
@@ -40,14 +40,14 @@ bottomSections:
         - name: firstName
           label: First Name
           hideLabel: true
-          placeholder: First Name
+          placeholder: nome
           isRequired: true
           width: 1/2
           type: TextFormControl
         - name: lastName
           label: Last Name
           hideLabel: true
-          placeholder: Last Name
+          placeholder: cognome
           isRequired: false
           width: 1/2
           type: TextFormControl
@@ -61,16 +61,16 @@ bottomSections:
         - name: message
           label: Message
           hideLabel: true
-          placeholder: Tell me about your project
+          placeholder: Raccontami un po'...
           isRequired: true
           width: full
           type: TextareaFormControl
         - name: updatesConsent
-          label: Sign me up to recieve my words
+          label: ricevi aggiornamenti
           isRequired: false
           width: full
           type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
+      submitLabel: "Invia \U0001F680"
       styles:
         submitLabel:
           textAlign: center

@@ -71,7 +71,7 @@ sections:
     elementId: ''
     actions:
       - type: Link
-        label: See all projects
+        label: vedi tutti i progetti
         url: /projects
     showDate: false
     showDescription: true
@@ -92,18 +92,19 @@ sections:
           - ml-0
           - mr-0
         padding:
-          - pt-24
-          - pb-24
-          - pl-4
-          - pr-4
+          - pt-5
+          - pb-10
+          - pl-10
+          - pr-10
         justifyContent: center
+        borderRadius: xx-small
       title:
         textAlign: left
       subtitle:
         textAlign: left
       actions:
         justifyContent: flex-end
-    subtitle: 'Project '
+    subtitle: Progetti Recenti
   - type: ContactSection
     colors: colors-f
     backgroundSize: full

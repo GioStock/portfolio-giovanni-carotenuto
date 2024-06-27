@@ -1,6 +1,6 @@
 ---
 type: PageLayout
-title: About
+title: Su di Me
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
@@ -13,7 +13,7 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    text: "# **Ciao Sono Giovanni,**\n\n#### Appassionato del Mondo IT, la mia Formazione è iniziata tardi in questo settore, ma ho sempre avuto una passione irrefrenabile nell'approfondire. Attualmente mi sto formando anche su C#, Visual Studio e .NET, perchè la mia passione sarebbe quella di essere un Game Designer Developer \U0001F916.\n\n"
+    text: "# **Ciao Sono Giovanni\U0001F604\U0001F44B\U0001F3FB**\n\n#### Appassionato del Mondo IT, la mia Formazione è iniziata tardi in questo settore, ma ho sempre avuto una passione irrefrenabile nell'approfondire. Attualmente mi sto formando anche su C#, Visual Studio e .NET, perchè la mia passione sarebbe quella di essere un Game Designer Developer \U0001F916.\n\n"
     media:
       type: ImageBlock
       url: /images/IMG_7370-removebg-preview.png
@@ -42,6 +42,16 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
+    actions:
+      - type: Button
+        label: LinkedIn
+        altText: ''
+        url: 'https://www.linkedin.com/in/giovanni-carotenuto1996/'
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        elementId: ''
   - type: DividerSection
     styles:
       self:
