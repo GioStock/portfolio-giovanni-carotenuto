@@ -10,12 +10,12 @@ backgroundImage:
   opacity: 75
   url: /images/featured-Image1.jpg
 sections:
-  - elementId: ''
+  - elementId: hero
     colors: colors-f
     backgroundSize: full
     title: 'Ciao, sono Giovanni un Jr. Full Stack Web Developer'
     subtitle: >-
-      HTML & CSS | Javascript | Java | SpringBoot | JPA | Hibernate | MyQSL |
+      HTML & CSS | Javascript | Java | SpringBoot | JPA | Hibernate | MySQL |
       Node.js | JSON | Bootstrap | VSC | Eclipse | REST | MVC | GIT |
     styles:
       self:
@@ -45,33 +45,33 @@ sections:
     type: HeroSection
     actions:
       - type: Link
-        label: GIT HUB
-        altText: ''
+        label: GitHub
+        altText: 'Visita il mio GitHub'
         url: 'https://github.com/GioStock'
         showIcon: true
         icon: github
         iconPosition: left
-        elementId: ''
+        elementId: github-link
       - type: Link
         label: LinkedIn
-        altText: ''
+        altText: 'Visita il mio LinkedIn'
         url: 'https://www.linkedin.com/in/giovanni-carotenuto1996/'
         showIcon: true
         icon: linkedin
         iconPosition: left
-        elementId: ''
+        elementId: linkedin-link
     media:
       type: ImageBlock
       url: /images/IMG_7370-removebg-preview.png
       altText: Foto Personale
       caption: Foto
-      elementId: ''
+      elementId: hero-image
   - colors: colors-f
     type: FeaturedProjectsSection
-    elementId: ''
+    elementId: featured-projects
     actions:
       - type: Link
-        label: vedi tutti i progetti
+        label: Vedi tutti i progetti
         url: /projects
     showDate: false
     showDescription: true
@@ -79,9 +79,9 @@ sections:
     showReadMoreLink: true
     variant: variant-b
     projects:
+      - content/pages/projects/project-one.md
       - content/pages/projects/project-two.md
       - content/pages/projects/project-three.md
-      - content/pages/projects/project-one.md
     styles:
       self:
         height: auto
@@ -109,23 +109,22 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: >-
-      Hai qualche Domanda? compila il modulo Qui oppure puoi scrivermi su
-      LinkedIn
+      Hai qualche domanda? Compila il modulo qui sotto oppure scrivimi su LinkedIn.
     form:
       type: FormBlock
-      elementId: sign-up-form
+      elementId: contact-form
       fields:
         - name: nome
           label: Nome
           hideLabel: true
-          placeholder: nome
+          placeholder: Nome
           isRequired: true
           width: 1/2
           type: TextFormControl
         - name: cognome
-          label: cognome
+          label: Cognome
           hideLabel: true
-          placeholder: cognome
+          placeholder: Cognome
           isRequired: false
           width: 1/2
           type: TextFormControl
@@ -137,18 +136,18 @@ sections:
           width: 1/2
           type: EmailFormControl
         - name: indirizzo
-          label: indirizzo
+          label: Indirizzo
           hideLabel: true
-          placeholder: indirizzo
+          placeholder: Indirizzo
           isRequired: true
           width: 1/2
           type: TextFormControl
-        - name: Aggiornamenti
+        - name: aggiornamenti
           label: Resta Aggiornato
           isRequired: false
           width: full
           type: CheckboxFormControl
-      submitLabel: "Invia \U0001F680"
+      submitLabel: "Invia 🚀"
       styles:
         submitLabel:
           textAlign: center
@@ -174,6 +173,6 @@ sections:
       text:
         textAlign: left
 metaTitle: Portfolio Personale
-metaDescription: my portfolio Web Developer
+metaDescription: Il portfolio di Giovanni Carotenuto, Jr. Full Stack Web Developer.
 addTitleSuffix: false
 ---

@@ -12,6 +12,7 @@
                 "type": "Link",
                 "label": "Home",
                 "url": "/"
+                
             },
             {
                 "type": "Link",
@@ -36,7 +37,7 @@
                 "type": "Social",
                 "altText": "GitHub",
                 "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
+                "url": "https://github.com/GioStock",
                 "icon": "github"
             }
         ],
