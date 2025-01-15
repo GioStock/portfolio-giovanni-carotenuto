@@ -75,7 +75,7 @@ bottomSections:
           width: full
           type: EmailFormControl
         - name: updatesConsent
-          label: Sign me up to recieve my words
+          label: Non perderti le novità
           isRequired: false
           width: full
           type: CheckboxFormControl
