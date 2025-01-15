@@ -12,7 +12,6 @@
                 "type": "Link",
                 "label": "Home",
                 "url": "/"
-                
             },
             {
                 "type": "Link",
@@ -43,7 +42,7 @@
         ],
         "styles": {
             "self": {
-                "width": "full"
+                "width": "wide"
             }
         }
     },
