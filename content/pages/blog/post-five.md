@@ -2,7 +2,7 @@
 type: PostLayout
 title: 'L''Intelligenza Artificiale Generativa: Cambierà il Mondo del Lavoro?'
 colors: colors-a
-date: '2024-01-02'
+date: '2025-01-02'
 author: content/data/team/doris-soto.json
 excerpt: More context that may or may not be helpful
 featuredImage:
