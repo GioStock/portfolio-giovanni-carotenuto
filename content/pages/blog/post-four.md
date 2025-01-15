@@ -7,7 +7,7 @@ author: content/data/team/doris-soto.json
 excerpt: More context that may or may not be helpful
 featuredImage:
   type: ImageBlock
-  url: /images/featured-Image4.jpg
+  url: /images/pexels-pramodtiwari-13564604.jpg
   altText: Post thumbnail image
 bottomSections:
   - elementId: ''
