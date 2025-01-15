@@ -47,7 +47,7 @@ bottomSections:
     title: ''
   - type: ContactSection
     backgroundSize: full
-    title: Stay Tuned ✍️
+    title: Stay Tuned...✍️
     colors: colors-f
     form:
       type: FormBlock
