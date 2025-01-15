@@ -4,7 +4,9 @@ title: 'L''Intelligenza Artificiale Generativa: Cambierà il Mondo del Lavoro?'
 colors: colors-a
 date: '2025-01-15'
 author: content/data/team/doris-soto.json
-excerpt: More context that may or may not be helpful
+excerpt: >-
+  L'Intelligenza Artificiale Generativa (AI Generativa) è uno dei trend più
+  discussi...
 featuredImage:
   type: ImageBlock
   url: /images/pexels-sanketgraphy-16629368.jpg
