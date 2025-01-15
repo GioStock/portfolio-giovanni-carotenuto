@@ -47,7 +47,7 @@ bottomSections:
     title: ''
   - type: ContactSection
     backgroundSize: full
-    title: Stay up-to-date with my words ✍️
+    title: Resta connesso ✍️
     colors: colors-f
     form:
       type: FormBlock
