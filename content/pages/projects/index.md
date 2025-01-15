@@ -1,7 +1,7 @@
 ---
 type: ProjectFeedLayout
 title: Ultimi Progetti
-colors: colors-a
+colors: colors-c
 backgroundImage:
   type: BackgroundImage
   url: /images/bg1.jpg
