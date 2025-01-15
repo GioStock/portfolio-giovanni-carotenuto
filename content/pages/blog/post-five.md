@@ -53,7 +53,7 @@ bottomSections:
       type: FormBlock
       elementId: sign-up-form
       fields:
-        - name: firstName
+        - name: Nome
           label: Nome
           hideLabel: true
           placeholder: First Name
