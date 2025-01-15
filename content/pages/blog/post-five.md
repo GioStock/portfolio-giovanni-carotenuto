@@ -42,7 +42,7 @@ bottomSections:
         justifyContent: center
     showFeaturedImage: true
     showReadMoreLink: true
-    title: Post
+    title: ''
   - type: ContactSection
     backgroundSize: full
     title: Stay up-to-date with my words ✍️
