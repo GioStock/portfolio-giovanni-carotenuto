@@ -2,7 +2,7 @@
 type: PostLayout
 title: ' 5 Tecnologie Che Definiranno il 2025'
 colors: colors-a
-date: '2024-02-01'
+date: '2025-01-01'
 author: content/data/team/doris-soto.json
 excerpt: More context that may or may not be helpful
 featuredImage:
